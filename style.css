@@ -136,9 +136,9 @@ body{
 
 
 .projects{
-    border: 2px solid black;
     height: 550px;
     background-color: #dad7cd;
+    padding-top: 2px;
 }
 
 .projects h3{
@@ -184,7 +184,6 @@ body{
 
 .card a{
     text-decoration: none;
-    color: black;
     font-family: 'Roboto';
     color: #344e41;
     width: 200px;
@@ -198,8 +197,96 @@ body{
 
 .card a:hover{
     
-    box-shadow: 1px 1px  3px black;
+    box-shadow: 3px 3px  5px #344e41;
 }
+
+
+.contact-me{
+    text-align: center;
+    font-family: 'Roboto';
+    background-color: #a3b18a;
+    padding-top: 2px;
+    color: #1b231f;
+}
+
+.contact-me img{
+    width:400px;
+    height: 400px;
+    
+}
+
+.contact-me h3{
+    font-size: 28px;
+   
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    text-align: left;
+    align-items: self-start;
+    height: 400px;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-bottom: 4px;
+    font-weight: 700;
+    
+}
+
+.contact-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+form label{
+    margin-top: 8px;
+}
+
+form input{
+    width: 540px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin-top: 8px;
+    background-color: #a3b18a;
+    color: #1b231f;
+}
+
+form input:focus{
+    outline:none;
+}
+
+
+textarea{
+    width: 540px;
+    height: 50%;
+    font-size: 18px;
+    background-color: #a3b18a;
+    color: #1b231f;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+form button{
+    margin: 8px 0px;
+    align-self: center;
+    padding: 10px 100px;
+    border-radius: 8px;
+    border: none;
+    background-color: #dad7cd;
+    font-family: 'Roboto';
+    color: #344e41;
+}
+
+form button:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px  5px #344e41;
+}
+
 
 
 
